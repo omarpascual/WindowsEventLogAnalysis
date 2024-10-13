@@ -44,3 +44,10 @@ I search for another event but with Logon Type 3 where i can get info on the wor
 ![Window](https://github.com/user-attachments/assets/7eb687ee-dea5-4f53-a194-91f320ded618)
 <br />
 ![Window](https://github.com/user-attachments/assets/269e6c6a-b720-4510-b69a-7858f9f40506)
+<br />
+<br />
+To see if the eviluser logged off to ensure they didn't persist further, I look at event ID 4634. I see that it is a form of the persistence technique used.
+<br />
+![Window](https://github.com/user-attachments/assets/22003845-15b2-45aa-9c55-b178f92dc0d6)
+
+Reference to create account -----> (https://attack.mitre.org/techniques/T1136/)
