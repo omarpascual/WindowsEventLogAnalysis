@@ -26,3 +26,9 @@ Next i look at another log named IR_Incident where I see that a services was ins
 <br />
 ![Window](https://github.com/user-attachments/assets/eadc394f-c22e-4a0a-b542-afe17f225bd0)
 <br />
+<br />
+Back with IR_Security_Log I filter Event ID 5379 where I see when account credentials were interacted with. We see activity from user Anthony as well as System. I then filter 4625 to see if i can find any failed logins. I see continued failed logins for user Anthony.
+<br />
+![Window](https://github.com/user-attachments/assets/df75a5b2-3cda-4ad2-a882-b8315279eac6)
+<br />
+
