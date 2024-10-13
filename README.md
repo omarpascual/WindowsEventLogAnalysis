@@ -31,4 +31,16 @@ Back with IR_Security_Log I filter Event ID 5379 where I see when account creden
 <br />
 ![Window](https://github.com/user-attachments/assets/df75a5b2-3cda-4ad2-a882-b8315279eac6)
 <br />
-
+I examine event ID 4648 and notice that credential dumping taking place.
+<br />
+![Window](https://github.com/user-attachments/assets/4d90a45e-bebd-4c0e-870b-573a2ea71f16)
+<br/>
+For reference on credential dumping ---> (https://attack.mitre.org/techniques/T1003/)
+<br />
+<br />
+In event 4624 with different logon type, my focus is now in Logon Type 10. It suggest remote/network access. IP address of 192.168.56.102, another computer on the network.
+I search for another event but with Logon Type 3 where i can get info on the workstation name. It is indeed another workstation name kali.
+<br />
+![Window](https://github.com/user-attachments/assets/7eb687ee-dea5-4f53-a194-91f320ded618)
+<br />
+![Window](https://github.com/user-attachments/assets/269e6c6a-b720-4510-b69a-7858f9f40506)
